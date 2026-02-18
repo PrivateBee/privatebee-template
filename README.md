@@ -31,9 +31,12 @@ The system computes the **optimal trajectory** not only in **space** but also in
 
 ```
 privatebee-template/
-├── CODE_OF_CONDUCT.md              -> Expected behavior guidelines
-├── CONTRIBUTING.md                 -> Guidelines for contributing
-├── GOVERNANCE.md                   -> Project governance structure
+├── .github/                        -> GitHub configuration files
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug-report.yml          -> Bug report issue template
+│   │   ├── config.yml              -> Issue template configuration
+│   │   └── new-feature.yml         -> Feature request issue template
+│   └── PULL_REQUEST_TEMPLATE.md    -> Pull request template
 ├── LICENSE.md                      -> Project license
 └── README.md                       -> Project overview and documentation
 ```
@@ -42,8 +45,7 @@ privatebee-template/
 
 ## Getting Started
 
-<!-- TODO: mettre le lien -->
-Before contributing, please go to the [Documentation Repository](), read the **README** file, and read subsequent files if necessary.
+Before contributing, please go to the [Documentation Repository](https://github.com/PrivateBee/privatebee-docs), read the **README** file, and read subsequent files if necessary.
 
 ---
 
