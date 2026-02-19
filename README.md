@@ -37,6 +37,7 @@ privatebee-template/
 │   │   ├── config.yml              -> Issue template configuration
 │   │   └── new-feature.yml         -> Feature request issue template
 │   └── PULL_REQUEST_TEMPLATE.md    -> Pull request template
+├── .gitignore                      -> Git ignore rules
 ├── LICENSE.md                      -> Project license
 └── README.md                       -> Project overview and documentation
 ```
